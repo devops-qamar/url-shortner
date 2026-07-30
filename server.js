@@ -21,7 +21,7 @@ app.use("/", urlRoutes);
 const PORT = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
-  res.send("🚀 URL Shortener API is Running");
+  res.send("version 2 deployed viva github action");
 });
 
 app.listen(PORT, () => {
